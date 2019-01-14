@@ -1,5 +1,5 @@
 <?php
-$siteheading='Verbalbeurteilungen';
+$siteheading='GermanFrenchFood';
 // The Server your database is hosted on. Normal value is 'localhost'
 $databasehost="localhost";
 // The username to log into your database.
@@ -7,7 +7,7 @@ $databaseusername="root";
 // The password for your database
 $databasepassword="root";
 
-$databasename="verbalbeurteilungen";
+$databasename="GermanFrenchFood";
 
 define('DATABASE_HOST', $databasehost);
 define('DATABASE_USERNAME', $databaseusername);
