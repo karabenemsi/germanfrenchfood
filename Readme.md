@@ -4,6 +4,13 @@
 
 
 # To Commit
+``` 
+powershell
+git add .
+git commit -m <Your Message>
+git pull
+git push
+```
 
 
 # To Push
