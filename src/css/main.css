@@ -1,20 +1,22 @@
-@import '1_tools/fonts.css';
+@import './1_tools/normalize.css';
+@import './1_tools/fonts.css';
 
-@import '2_definitions/vars.css';
+@import './2_definitions/vars.css';
 
-@import '3_basics/body.css';
-@import '3_basics/images.css';
-@import '3_basics/links.css';
-@import '3_basics/images.css';
-@import '3_basics/lists.css';
-@import '3_basics/selection.css';
-@import '3_basics/typography.css';
+@import './3_basics/body.css';
+@import './3_basics/images.css';
+@import './3_basics/links.css';
+@import './3_basics/icons.css';
+@import './3_basics/images.css';
+@import './3_basics/lists.css';
+@import './3_basics/selection.css';
+@import './3_basics/typography.css';
 
-@import '4_elements/footer.css';
-@import '4_elements/header.css';
-@import '4_elements/main.css';
-@import '4_elements/navigation.css';
+@import './4_elements/footer.css';
+@import './4_elements/header.css';
+@import './4_elements/main.css';
+@import './4_elements/navigation.css';
 
-@import '5_sections/hero.css';
+@import './5_sections/hero.css';
 
-@import '6_sites/home.css';
+@import './6_sites/home.css';

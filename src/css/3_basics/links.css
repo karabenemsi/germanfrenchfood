@@ -1,0 +1,34 @@
+a {
+  color: #007298;
+  text-decoration: none;
+  outline: 0;
+  cursor: pointer;
+}
+
+a > span.mdi {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+a:hover,
+a:focus {
+  color: #0098cb;
+}
+
+a:hover > span.mdi,
+a:focus > span.mdi {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.invisiblelink {
+  color: #232323;
+  text-decoration: none;
+}
+
+.invisiblelink:hover {
+  color: #232323;
+  text-decoration: none;
+}

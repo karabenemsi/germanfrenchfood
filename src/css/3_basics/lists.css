@@ -1,0 +1,13 @@
+ul,
+ol {
+  font-size: 1rem;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.00625rem;
+  padding-left: 1.25rem;
+}
+
+ul li,
+ol li {
+  line-height: 1.6;
+}
