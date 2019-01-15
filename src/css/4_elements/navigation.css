@@ -6,6 +6,7 @@
   color: #ffffff;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  z-index: 1000;
 }
 
 .menu.open {
@@ -110,7 +111,7 @@ nav {
   position: absolute;
   z-index: 1020;
   top: 7rem;
-  left: -10rem;
+  left: -100rem;
   color: #fff;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
