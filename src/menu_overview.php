@@ -1,6 +1,7 @@
 <?php
   define('HOME_SITE', false);
   include('./includes/settings.php');
+  include('./includes/database.php');
   include('./includes/functions.php');
   include('./includes/header.php'); 
 
@@ -15,6 +16,10 @@
 
 <?php
 
+$sql = "SELECT * FROM meal";
+
+
+
   $menus = [
     ['./images/region/ile_vierge.jpg',['Vegetarian','Meat','French'],'Breton Menu','Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nulla soluta, magnam ullam sunt incidunt omnis nisi placeat. Odit, quos?'],
     ['./images/region/place_stanislas.jpg',['Vegetarian','Meat','French'],'Parisian Menu','Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nulla soluta, magnam ullam sunt incidunt omnis nisi placeat. Odit, quos?'],
@@ -23,25 +28,26 @@
     ['./images/region/hotel_dieu.jpg',['Vegetarian','Light','Meat','French'],'Savoyard Menu','Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nulla soluta, magnam ullam sunt incidunt omnis nisi placeat. Odit, quos?']
   ];  
 
-  for ($i=0; $i < 5; $i++) {
-    echo '
-    <section class="menu-item">
-      <a class="top-image" style="background-image:url(' . $menus[$i][0] . ')"></a>
-      <div class="categories">
-        <ul>';
+  foreach ($db->query($sql) as $meal) {
+      echo '
+      <section class="menu-item">
+        <div class="price">' . $meal['price'] . '</div>
+        <a class="top-image" style="background-image:url(' . $meal['image'] . ')"></a>
+        <div class="categories">
+          <ul>';
 
-        for ($j=0; $j < sizeof($menus[$i][1]); $j++) { 
-          echo '<li><a href="./menu_overview.php?category=' . $menus[$i][1][$j] . '">' . $menus[$i][1][$j] . '</a></li>';
-        }
-          echo'
-        </ul>
-      </div>
-      <h2 class="title">'. $menus[$i][2] . '</h2>
-      <p class="translation">English Name</p>
-      <p class="description">'. $menus[$i][3] . '</p>
-    </section>
-    ';
-  }
+          for ($j=0; $j < 3; $j++) { 
+            echo '<li><a href="./menu_overview.php?category=' . $meal['name'] . '">' . $meal['name'] . '</a></li>';
+          }
+            echo'
+          </ul>
+        </div>
+        <h2 class="title">'. $meal['name'] . '</h2>
+        <p class="translation">'. $meal['trans'] . '</p>
+        <p class="description">'. $meal['description'] . '</p>
+      </section>
+      ';
+    }
   ?>
 
 	</div>

@@ -1,6 +1,7 @@
     <?php
     define('HOME_SITE', true);
     include('./includes/settings.php');
+    include('./includes/database.php');
     include('./includes/functions.php');
     include('./includes/header.php'); 
 
