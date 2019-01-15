@@ -1,7 +1,9 @@
 <?php
-	$db = mysqli_connect(DATABASE_HOST, DATABASE_USERNAME, DATABASE_PASSWORD, DATABASE_NAME);
-	if(!$db)
-	{
-		exit('Connection Error: ' . mysqli_error());
-	}
+$dbServername="localhost";
+$dbUsername="root";
+$dbPassword="";
+$dbName = "ww07";
+
+$conn = mysqli_connect($dbServername,$dbUsername,$dbPassword,$dbName;
+
 ?>
