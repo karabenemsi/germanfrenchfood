@@ -1,6 +1,7 @@
 
 
 //Header
-document.getElementById('js_nav-button').addEventListener('click', (ev) => {
-    document.getElementById('js_menu').classList.toggle('open');
-})
+document.getElementById("button").addEventListener("click", function(ev) {
+  var $menu = document.getElementById("menu");
+  $menu.classList.toggle("open");
+});

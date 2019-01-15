@@ -9,9 +9,9 @@
 </head>
 <body>
     <header>
-      <div class="menu open" id="js_menu">
+      <div class="menu" id="menu">
         <div class="background"></div>
-        <div class="nav-button" id="js_nav-button">
+        <div class="nav-button" id="button">
           <div class="ham"></div>
         </div>
         <nav> 
@@ -22,7 +22,16 @@
             <li><a href="">About Us</a></li>
           </ul>
           <ul>
-            <li><a href="">Menu French</a></li>
+            <li><a href="">French Menu</a></li>
+          </ul>
+          <ul>
+            <li><a href="">German Menu</a></li>
+          </ul>
+          <ul>
+            <li><a href="">Specials</a></li>
+          </ul>
+          <ul>
+            <li><a href="">Locations</a></li>
           </ul>
         </nav>
       </div>
