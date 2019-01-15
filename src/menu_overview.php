@@ -12,23 +12,33 @@
 </section>
 <div class="menu-container">
 
+
 <?php
-  for ($i=0; $i < 10; $i++) {
+
+
+  $menus = [
+    ['./images/region/ile_vierge.jpg',['Vegetarian','Meat','French'],'Breton Menu','Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nulla soluta, magnam ullam sunt incidunt omnis nisi placeat. Odit, quos?'],
+    ['./images/region/place_stanislas.jpg',['Vegetarian','Meat','French'],'Paris Menu','Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nulla soluta, magnam ullam sunt incidunt omnis nisi placeat. Odit, quos?'],
+    ['./images/region/pont_notre_dame.jpg',['Vegetarian','French'],'Breton Menu','Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nulla soluta, magnam ullam sunt incidunt omnis nisi placeat. Odit, quos?'],
+    ['./images/region/dune_pillat.jpg',['Vegetarian','Meat','Cheese','French'],'Breton Menu','Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nulla soluta, magnam ullam sunt incidunt omnis nisi placeat. Odit, quos?'],
+    ['./images/region/hotel_dieu.jpg',['Vegetarian','Light','Meat','French'],'Breton Menu','Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nulla soluta, magnam ullam sunt incidunt omnis nisi placeat. Odit, quos?']
+  ];  
+
+  for ($i=0; $i < 5; $i++) {
     echo '
     <section class="menu-item">
-      <div class="top-image" style="background-image:url(./images/region/ile_vierge.jpg)"></div>
+      <a class="top-image" style="background-image:url(' . $menus[$i][0] . ')"></a>
       <div class="categories">
-        <ul>
-          <li><a href="">Vegetarian</a></li>
-          <li><a href="">French</a></li>
-          <li><a href="">Salad</a></li>
-          <li><a href="">Menu</a></li>
+        <ul>';
+
+        for ($j=0; $j < sizeof($menus[$i][1]); $j++) { 
+          echo '<li><a href="./menu_overview.php?category=' . $menus[$i][1][$j] . '">' . $menus[$i][1][$j] . '</a></li>';
+        }
+          echo'
         </ul>
       </div>
-      <h2 class="title">Breton Menu</h2>
-      <p class="description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nulla soluta, magnam ullam sunt incidunt omnis nisi placeat. Odit, quos?
-      </p>
+      <h2 class="title">'. $menus[$i][2] . '</h2>
+      <p class="description">'. $menus[$i][3] . '</p>
     </section>
     ';
   }

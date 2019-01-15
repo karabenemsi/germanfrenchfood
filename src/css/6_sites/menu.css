@@ -12,13 +12,14 @@
   box-shadow: 0 0 1rem rgb(0,0,0,0.5);
   padding: 0 0 1rem 0;
   width: calc(50% - 3rem);
-  min-width: 25rem;
+  min-width: 20rem;
   flex-grow: 1;
 }
 
 .menu-item .top-image{
   height: 20rem;
   width: 100%;
+  display: block;
   background-size: cover;
   background-position: center center;
 }
