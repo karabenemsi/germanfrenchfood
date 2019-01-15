@@ -24,6 +24,9 @@ header .logo svg {
   width: 100%;
 }
 
+
+/* Logo on the home page */
+
 header.home .logo {
   top: 20rem;
   right: 50%;
@@ -35,7 +38,6 @@ header.home .logo {
 }
 
 header.home .logo-text {
-  /* z-index: 2000; */
   position: absolute;
   top: calc(20rem + 7rem);
   left: 50%;
