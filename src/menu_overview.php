@@ -15,13 +15,12 @@
 
 <?php
 
-
   $menus = [
     ['./images/region/ile_vierge.jpg',['Vegetarian','Meat','French'],'Breton Menu','Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nulla soluta, magnam ullam sunt incidunt omnis nisi placeat. Odit, quos?'],
-    ['./images/region/place_stanislas.jpg',['Vegetarian','Meat','French'],'Paris Menu','Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nulla soluta, magnam ullam sunt incidunt omnis nisi placeat. Odit, quos?'],
-    ['./images/region/pont_notre_dame.jpg',['Vegetarian','French'],'Breton Menu','Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nulla soluta, magnam ullam sunt incidunt omnis nisi placeat. Odit, quos?'],
-    ['./images/region/dune_pillat.jpg',['Vegetarian','Meat','Cheese','French'],'Breton Menu','Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nulla soluta, magnam ullam sunt incidunt omnis nisi placeat. Odit, quos?'],
-    ['./images/region/hotel_dieu.jpg',['Vegetarian','Light','Meat','French'],'Breton Menu','Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nulla soluta, magnam ullam sunt incidunt omnis nisi placeat. Odit, quos?']
+    ['./images/region/place_stanislas.jpg',['Vegetarian','Meat','French'],'Parisian Menu','Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nulla soluta, magnam ullam sunt incidunt omnis nisi placeat. Odit, quos?'],
+    ['./images/region/pont_notre_dame.jpg',['Vegetarian','French'],'Alsace - Lorraine Menu','Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nulla soluta, magnam ullam sunt incidunt omnis nisi placeat. Odit, quos?'],
+    ['./images/region/dune_pillat.jpg',['Vegetarian','Meat','Cheese','French'],'Lyonnais Menu','Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nulla soluta, magnam ullam sunt incidunt omnis nisi placeat. Odit, quos?'],
+    ['./images/region/hotel_dieu.jpg',['Vegetarian','Light','Meat','French'],'Savoyard Menu','Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nulla soluta, magnam ullam sunt incidunt omnis nisi placeat. Odit, quos?']
   ];  
 
   for ($i=0; $i < 5; $i++) {
@@ -38,6 +37,7 @@
         </ul>
       </div>
       <h2 class="title">'. $menus[$i][2] . '</h2>
+      <p class="translation">English Name</p>
       <p class="description">'. $menus[$i][3] . '</p>
     </section>
     ';

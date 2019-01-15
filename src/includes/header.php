@@ -24,13 +24,13 @@
           <li><a href="./about.php">About Us</a></li>
         </ul>
         <ul>
+          <li><a href="">Download Menu</a></li>
+        </ul>
+        <ul>
           <li><a href="./menu_overview.php?category=french">French Menu</a></li>
         </ul>
         <ul>
           <li><a href="./menu_overview.php?category=german">German Menu</a></li>
-        </ul>
-        <ul>
-          <li><a href="./menu_overview.php?category=special">Specials</a></li>
         </ul>
         <ul>
           <li><a href="./locations.php">Locations</a></li>
