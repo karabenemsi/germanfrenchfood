@@ -11,6 +11,39 @@
 
     </section>
 
+    
+
+    <section class="homemenu">
+
+        <div class="homebox">
+            <h1> Great Headline </h1>
+
+        </div>
+
+        <div class="homebox">
+        <h1> Great Headline </h1>
+
+        </div>
+
+        <div class="homebox">
+        <h1> Great Headline </h1>
+
+        </div>
+
+        <div class="homebox">
+        <h1> Great Headline </h1>
+
+        </div>
+
+        <div class="homebox">
+        <h1> Great Headline </h1>
+
+        </div>
+
+        <div class="homebox">
+        <h1> Great Headline </h1>
+
+        </div>
     <section class="split-text">
         
       <div class="half">

@@ -1,0 +1,22 @@
+.homemenu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.homebox{
+    width: 33.33%;
+    min-width: 375px;
+    flex-grow: 1;
+    background: orange;
+    border: 2px solid black;
+    padding: 1rem;
+
+
+}
+
+.homebox h1 {
+    font-size: auto;
+
+}
