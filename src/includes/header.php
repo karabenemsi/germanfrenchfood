@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +10,7 @@
 
 </head>
 <body>
-  <header class="home" id="js_header">
+  <header <?php if(HOME_SITE){echo 'class="home"';}?> id="js_header">
     <div class="menu" id="menu">
       <div class="background"></div>
       <div class="nav-button" id="button">
@@ -17,22 +18,22 @@
       </div>
       <nav> 
         <ul>
-          <li><a href="">Home</a></li>
+          <li><a href="./index.php">Home</a></li>
         </ul>
         <ul>
-          <li><a href="">About Us</a></li>
+          <li><a href="./about.php">About Us</a></li>
         </ul>
         <ul>
-          <li><a href="">French Menu</a></li>
+          <li><a href="./menu_overview.php?category=french">French Menu</a></li>
         </ul>
         <ul>
-          <li><a href="">German Menu</a></li>
+          <li><a href="./menu_overview.php?category=german">German Menu</a></li>
         </ul>
         <ul>
-          <li><a href="">Specials</a></li>
+          <li><a href="./menu_overview.php?category=special">Specials</a></li>
         </ul>
         <ul>
-          <li><a href="">Locations</a></li>
+          <li><a href="./locations.php">Locations</a></li>
         </ul>
       </nav>
     </div>

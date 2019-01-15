@@ -1,0 +1,53 @@
+.menu-container{
+  margin: 0 auto;
+  max-width: 60rem;
+  width: 100%;
+  /* padding: 1rem; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-item{
+  margin: 2rem 1rem;
+  box-shadow: 0 0 1rem rgb(0,0,0,0.5);
+  padding: 0 0 1rem 0;
+  width: calc(50% - 3rem);
+  min-width: 25rem;
+  flex-grow: 1;
+}
+
+.menu-item .top-image{
+  height: 20rem;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.menu-item .categories{
+  padding: 0.725rem;
+}
+
+.menu-item .categories ul{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.menu-item .categories li{
+  padding: 0.25rem;
+  height: 1.25rem;
+  font-size: 0.8rem;
+  margin: 0.125;
+  line-height: 1;
+  margin: 0.25rem;
+  background: #dedede;
+
+}
+.title{
+  padding: 0 1rem;
+}
+.description{
+  padding: 0.25rem 1rem;
+}

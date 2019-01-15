@@ -1,5 +1,5 @@
     <?php
-    define('HOME_SITE', true);
+    define('HOME_SITE', false);
     include('./includes/settings.php');
     include('./includes/functions.php');
     include('./includes/header.php'); 
