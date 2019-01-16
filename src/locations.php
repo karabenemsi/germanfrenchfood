@@ -11,7 +11,7 @@
 
 
 
-<p align="center"><iframe src="https://www.google.com/maps/d/embed?mid=1q3jdrSzqfOA3jauEVG4BZOONkfQ5cQMr" width="640" height="480"></iframe></p>
+<p align="center"><iframe src="https://www.google.com/maps/d/embed?mid=1q3jdrSzqfOA3jauEVG4BZOONkfQ5cQMr" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe></p>
 
 <section>
 			<div id="column1">
