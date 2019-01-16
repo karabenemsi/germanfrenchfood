@@ -1,0 +1,76 @@
+ main.menus-main {
+	display: flex;
+  flex-direction: column;
+
+}
+.menus-main .title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image:url(../../images/region/charcuterie.jpg);
+	height: 500px;
+	color: white; /*A CHANGER LA COULEUR SI ON VEUT*/
+	font-size: 100px;
+  background-size: cover;
+  max-width: none;
+}
+.menus-main section {
+	flex-direction: column;
+	margin: 0 auto;
+  width: 100%;
+    width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.menus-main .menu-item {
+	display: flex;
+	margin-top: 5px;
+	height: 300px;
+	background-size: cover;
+	border-radius: 30px;
+	justify-content: center;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+
+}
+.breton {
+	background-image: url(../../images/region/ile_vierge.jpg);
+}
+
+.alsace {
+	background-image: url(../../images/region/place_stanislas.jpg);
+}
+
+.aquitaine {
+	background-image: url(../../images/region/dune_pillat.jpg);
+}
+
+.lyon {
+	background-image: url(../../images/region/hotel_dieu.jpg);
+}
+
+.paris {
+	background-image: url(../../images/region/pont_notre_dame.jpg);
+}
+
+.savoie {
+	background-image: url(../../images/region/aiguille_du_midi.jpg);
+}
+
+
+.menus-main h2 {color: blue;  /*A CHANGER LA COULEUR*/
+	font-size: 50px;
+	font-weight: bold;
+	
+}
+
+.menus-main .menus{ 
+  display: none;
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: white;
+  margin-top: 20px;
+
+}

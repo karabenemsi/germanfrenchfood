@@ -1,14 +1,13 @@
     <?php
     define('HOME_SITE', true);
     include('./includes/database.php');
-    include('./includes/functions.php');
     include('./includes/header.php');
 
 
 ?>
     <main>
 
-    <section class="hero" style="background-image:url(./images/hero1.jpg">
+    <section class="hero" style="background-image:url(./images/hero2.jpg); background-attachment: unset; background-position: center center">
 
     </section>
 
@@ -33,37 +32,38 @@
 
     <section class="homemenu">
 
-        <div class="homebox">
-            <h1> Great Headline </h1>
-
-        </div>
-
-        <a href="" class="homebox">
-          <h1> Great Headline </h1>
-
+        <a class="homebox" href="" style="backround-image: url(./images/haxe.jpg)">
+            <h1> Haxe </h1>
 
         </a>
 
-        <div class="homebox">
-        <h1> Great Headline </h1>
+        <a class="homebox" href="" style="backround-image: url(./images/kaesespaetzle.jpg)">
+        <h1> Käsespätzle </h1>
 
-        </div>
+        </a>
 
-        <div class="homebox">
-        <h1> Great Headline </h1>
+        <a class="homebox" href="" style="backround-image: url(./images/weisswurst.jpg)">
+        <h1> Weißwurst </h1>
 
-        </div>
+        </a>
 
-        <div class="homebox">
-        <h1> Great Headline </h1>
+        <a class="homebox" href="" style="backround-image: url(./images/schupfnudel.jpg)">
+        <h1> Schupfnudel </h1>
 
-        </div>
+        </a>
 
-        <div class="homebox">
-        <h1> Great Headline </h1>
+        <a class="homebox" href="" style="backround-image: url(./images/rouladen.jpg)">
+        <h1> Rouladen </h1>
 
-        </div>
-  </section>
+        </a>
+
+        <a class="homebox" href="" style="backround-image: url(./images/apfelkuchen.jpg)">
+        <h1> Apfelkuchen </h1>
+        </a>
+
+
+
+    </section>
 
 
         <section class="video" style="background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)));">
