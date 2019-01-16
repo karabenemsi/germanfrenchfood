@@ -1,14 +1,15 @@
 body {
   -webkit-text-size-adjust: 100%;
 
-  color: #000;
+  color: #000000;
   font-family: 'Linotype-Univers', sans-serif;
   font-size: 16px;
+  /* Activate antialising for better font rendering in webkit browsers */
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
   line-height: 1;
 
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 * {

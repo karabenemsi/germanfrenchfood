@@ -9,7 +9,8 @@
 .icon svg {
   height: 100%;
 }
-
+/* Kepp this code in case it will be useful */
+/* 
 .click-icon {
   position: relative;
   display: block;
@@ -35,4 +36,4 @@
 .click-icon:hover:before {
   width: 150%;
   height: 150%;
-}
+} */

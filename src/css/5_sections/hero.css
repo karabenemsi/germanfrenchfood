@@ -5,4 +5,15 @@ section.hero{
 
   background-size: cover;
   background-position: center center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1{
+  font-size: 5rem;
+  line-height: 1.1;
+  text-align: center;
+  padding: 1rem;
 }

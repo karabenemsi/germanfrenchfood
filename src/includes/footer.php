@@ -1,11 +1,5 @@
+<footer>
 
-<!DOCTYPE html>
-<body>
-
-	<link rel="stylesheet" type="text/css" href="./css/6_sites/footer.css">
-</body>
-<html>
-<script src="./js/main.js"></script>
 
 <?/*------------------------------------------------------------- Introduction of the blog page+ video background */?>
 		<div>
@@ -22,6 +16,14 @@
 <? /* Small read more button to have more detail on the company, with link to a detailed page*/
 ?>
 	<article>
-		<p class="readmore"><a href="footerDetailed.php">+ to read more...</a></p>
+		<p class="readmore"><a href="./src/includes/footerDetailed.php">+ to read more...</a></p>
 	</article>
+</footer>
+
+<script src="./js/main.js"></script>
 </html>
+
+
+<?php
+$db = null;
+?>
