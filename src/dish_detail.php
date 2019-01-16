@@ -7,7 +7,7 @@
 ?>
     <main>
 
-    <section class="hero" style="background-image:url(./images/stock/stock_01.jpg">
+    <section class="hero" style="background-image:url(./images/stock/stock_01.jpg)">
 
     </section>
 

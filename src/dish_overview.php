@@ -13,7 +13,7 @@ if($category == ''){
 
 echo '
     <main class="menu-site">
-	<section class="hero" style="background-image:url(./images/region/charcuterie.jpg)">
+	<section class="hero" style="background-image:url(./images/hero1.jpg)">
   <h1>Dishes</h1>
   <h2>' . $category . '</h2>
 </section>
@@ -33,7 +33,7 @@ echo '
 
         echo '
         <section class="menu-item">
-          <div class="price">' . $meal['price'] . '</div>
+          <div class="price">' . $meal['price'] . '€</div>
           <a class="top-image" style="background-image:url(' . $meal['image'] . ')"></a>
           <div class="categories">
             <ul>';

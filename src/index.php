@@ -8,7 +8,7 @@
 ?>
     <main>
 
-    <section class="hero" style="background-image:url(./images/stock/stock_01.jpg">
+    <section class="hero" style="background-image:url(./images/hero1.jpg">
 
     </section>
 
@@ -18,13 +18,14 @@
 
         <div class="homebox">
             <h1> Great Headline </h1>
-
+            
         </div>
 
-        <div class="homebox">
-        <h1> Great Headline </h1>
+        <a href="" class="homebox">
+          <h1> Great Headline </h1>
 
-        </div>
+
+        </a>
 
         <div class="homebox">
         <h1> Great Headline </h1>
