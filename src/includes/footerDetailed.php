@@ -12,7 +12,7 @@
 </header>
 
 
-<p class="">We have two main idea that we had that pushed us to do this bi-national mix.
+<p class="blah">We have two main idea that we had that pushed us to do this bi-national mix.
 <h1>Germany</h1>For the challenge of developing their many applications on easy and quick to do dishes<h1>France</h1>was chosen to open up the complexity and freshness of their dishes.</p>
 
 <p>Each of them can bring great change in the way we consume things, and is a great challenge to bring it over to you, in the best way possible. </p>
