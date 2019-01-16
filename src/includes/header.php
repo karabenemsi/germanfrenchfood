@@ -20,17 +20,20 @@
         <ul>
           <li><a href="./index.php">Home</a></li>
         </ul>
-        <ul>
+        <!-- <ul>
           <li><a href="./about.php">About Us</a></li>
+        </ul> -->
+        <ul>
+          <li><a href="./dish_overview.php?category=french">French Dishes</a></li>
+        </ul>
+        <ul>
+          <li><a href="./dish_overview.php?category=german">German Dishes</a></li>
+        </ul>
+        <ul>
+          <li><a href="./menu.php">Menus</a></li>
         </ul>
         <ul>
           <li><a href="">Download Menu</a></li>
-        </ul>
-        <ul>
-          <li><a href="./menu_overview.php?category=french">French Menu</a></li>
-        </ul>
-        <ul>
-          <li><a href="./menu_overview.php?category=german">German Menu</a></li>
         </ul>
         <ul>
           <li><a href="./locations.php">Locations</a></li>

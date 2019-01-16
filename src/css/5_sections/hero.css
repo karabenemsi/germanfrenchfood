@@ -5,10 +5,12 @@ section.hero{
 
   background-size: cover;
   background-position: center center;
+  flex-direction: column;
 
   display: flex;
   justify-content: center;
   align-items: center;
+  background-attachment: fixed;
 }
 
 .hero h1{

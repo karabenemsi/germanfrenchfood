@@ -1,12 +1,11 @@
     <?php
     define('HOME_SITE', false);
-    include('./includes/functions.php');
     include('./includes/header.php'); 
 
 ?>
     <main>
 
-    <section class="hero" style="background-image:url(./images/stock/stock_01.jpg">
+    <section class="hero" style="background-image:url(./images/stock/stock_01.jpg)">
 
     </section>
 

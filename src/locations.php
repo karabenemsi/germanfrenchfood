@@ -1,14 +1,15 @@
-<!doctype html>
-<html lang="fr">
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="utf-8" />
-	<title>Formulaire</title>
-	<link rel="stylesheet" href="style.css"/>
-</head>
-<body>
+    <?php
+    define('HOME_SITE', false);
+    include('./includes/database.php');
+    include('./includes/header.php');
 
-<main>	
+
+?>
+    <main class="locations">
+
+
+
+
 
 <p align="center"><iframe src="https://www.google.com/maps/d/embed?mid=1q3jdrSzqfOA3jauEVG4BZOONkfQ5cQMr" width="640" height="480"></iframe></p>
 
@@ -118,7 +119,9 @@
 								</ul>
 			</div>
 </section>
-</main>
 
-</body>
-</html>
+
+    </main>
+<?php
+    include('./includes/footer.php'); 
+?>
