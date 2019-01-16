@@ -32,32 +32,32 @@
 
     <section class="homemenu">
 
-        <a class="homebox" href="" style="backround-image: url(./images/haxe.jpg)">
+        <a class="homebox" href="" style="background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./images/dishes/haxe.jpg)">
             <h1> Haxe </h1>
 
         </a>
 
-        <a class="homebox" href="" style="backround-image: url(./images/kaesespaetzle.jpg)">
+        <a class="homebox" href="" style="background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./images/dishes/kaesespaetzle.jpg)">
         <h1> Käsespätzle </h1>
 
         </a>
 
-        <a class="homebox" href="" style="backround-image: url(./images/weisswurst.jpg)">
+        <a class="homebox" href="" style="background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./images/dishes/weisswurst.jpg)">
         <h1> Weißwurst </h1>
 
         </a>
 
-        <a class="homebox" href="" style="backround-image: url(./images/schupfnudel.jpg)">
+        <a class="homebox" href="" style="background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./images/dishes/schupfnudel.jpg)">
         <h1> Schupfnudel </h1>
 
         </a>
 
-        <a class="homebox" href="" style="backround-image: url(./images/rouladen.jpg)">
+        <a class="homebox" href="" style="background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./images/dishes/rouladen.jpg)">
         <h1> Rouladen </h1>
 
         </a>
 
-        <a class="homebox" href="" style="backround-image: url(./images/apfelkuchen.jpg)">
+        <a class="homebox" href="" style="background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./images/dishes/apfelkuchen.jpg)">
         <h1> Apfelkuchen </h1>
         </a>
 
@@ -67,6 +67,11 @@
 
 
         <section class="video" style="background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url(./images/hero1.jpg);">
+			<video autoplay loop muted class="background-video">
+				<source src="
+				./videos/introVid.mp4" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
           <h2>Freshly Made</h2>
           <p>Our ingredients are grown regionally and selected by hand by our chefs. The dishes are freshly prepared for you after your order and then served at your table. In order to provide you with a high quality diet, we constantly carry out quality controls and support sustainable agriculture.</p>
         </section>
