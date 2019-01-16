@@ -1,9 +1,6 @@
-*{
-	margin: 0px;
-	padding: 0px;
-	list-style-type: none;
-	text-decoration: none;
-	text-align: center;
+
+footer{
+	 z-index: 10;
 }
 
 /* ------------------------------- Show the video showing on the whole screen*/

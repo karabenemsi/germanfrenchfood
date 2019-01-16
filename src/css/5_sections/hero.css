@@ -1,3 +1,7 @@
+section{
+  z-index: 10;
+}
+
 section.hero{
   background: green;
   height: 40rem;
