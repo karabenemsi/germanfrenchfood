@@ -15,14 +15,15 @@
         
       <div class="half">
         <div class="container">
-          <h2>Lorem ipsum dolor sit amet.</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic iure debitis est soluta itaque ratione rerum, aperiam modi, exercitationem iste quo voluptatem illo necessitatibus error accusamus odit. Similique eveniet explicabo id debitis. Possimus nisi odit, dolores quae saepe ullam impedit.</p>
+          <h2>Bienvenue a tous !</h2>
+          <p>En 2003, six amis d'origine Française et Allemande créeront GermanFrenchFood. Leur souhait était de donner la possibilité à tout le monde de profiter de leur culture culinaire. GermanFrenchFood a l'objectif de permettre à tout le monde de découvrir des spécialités locales, et nous sommes fiers de vous les vendre.</p>
         </div>
       </div>
       <div class="half">
         <div class="container">
-          <h2>Lorem ipsum dolor sit amet.</h2>
-          <p>Lorem ipsumum dolor sit amet consectetur adipisicing elit. Aliquam blanditiis est odio sequi vitae consequatur sit delectus temporibus! Consequuntur placeat deserunt, qui eum ab amet aspernatur sapiente perspiciatis impedit a ullam maxime architecto illo ratione totam recusandae itaque veritatis veniam!</p>
+          <h2>Guten Morgen Alles !</h2>
+          <p>Im Jahr 2003 werden sechs französische und deutsche Freunde GermanFrenchFood kreieren. Ihr Wunsch war es, allen die Möglichkeit zu geben, ihre Kochkultur zu genießen. GermanFrenchFood hat das Ziel, dass jeder die lokalen Spezialitäten entdecken kann, und wir sind stolz darauf, diese an Sie zu verkaufen.s
+        </p>
         </div>
       </div>
 
