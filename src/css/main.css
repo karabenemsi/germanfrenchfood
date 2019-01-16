@@ -20,6 +20,9 @@
 @import './5_sections/hero.css';
 @import './5_sections/menupreview.css';
 @import './5_sections/split-text.css';
+@import './5_sections/video.css';
 
 @import './6_sites/home.css';
 @import './6_sites/dish-overview.css';
+@import './6_sites/menu.css';
+@import './6_sites/locations.css';
