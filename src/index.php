@@ -17,32 +17,32 @@
     <section class="homemenu">
 
         <a class="homebox" href="" style="backround-image: url(./images/haxe.jpg)">
-            <h1> Great Headline </h1>
+            <h1> Haxe </h1>
 
         </a>
 
         <a class="homebox" href="" style="backround-image: url(./images/kaesespaetzle.jpg)">
-        <h1> Great Headline </h1>
+        <h1> Käsespätzle </h1>
 
         </a>
 
-        <a class="homebox" href="" style="backround-image: url(./images/haxe.jpg)">
-        <h1> Great Headline </h1>
+        <a class="homebox" href="" style="backround-image: url(./images/weisswurst.jpg)">
+        <h1> Weißwurst </h1>
 
         </a>
 
-        <a class="homebox" href="" style="backround-image: url(./images/haxe.jpg)">
-        <h1> Great Headline </h1>
+        <a class="homebox" href="" style="backround-image: url(./images/schupfnudel.jpg)">
+        <h1> Schupfnudel </h1>
 
         </a>
 
-        <a class="homebox" href="" style="backround-image: url(./images/haxe.jpg)">
-        <h1> Great Headline </h1>
+        <a class="homebox" href="" style="backround-image: url(./images/rouladen.jpg)">
+        <h1> Rouladen </h1>
 
         </a>
 
-        <a class="homebox" href="" style="backround-image: url(./images/haxe.jpg)">
-        <h1> Great Headline </h1>
+        <a class="homebox" href="" style="backround-image: url(./images/apfelkuchen.jpg)">
+        <h1> Apfelkuchen </h1>
         </a>
 
     <section class="split-text">
