@@ -16,7 +16,6 @@
 
 .menu .background {
   position: absolute;
-  top: 0;
   top: -100vmax;
   left: -50vmax;
   z-index: 1000;
