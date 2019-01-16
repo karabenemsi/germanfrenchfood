@@ -33,7 +33,7 @@
           <li><a href="./menu.php">Menus</a></li>
         </ul>
         <ul>
-          <li><a href="">Download Menu</a></li>
+          <li><a href="./menu.pdf" target="_blank">Download Menu</a></li>
         </ul>
         <ul>
           <li><a href="./locations.php">Locations</a></li>
