@@ -3,10 +3,9 @@
 	padding: 0px;
 }
 
-main
+p
 {
-	background-image: url(flammenkueche.jpg);
-	background-size: cover;
+margin-top: 2%;
 }
 
 @media screen and (min-width: 580px) {
