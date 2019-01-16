@@ -47,23 +47,20 @@
   font-size: 3rem;
   background: #fff;
   font-family: 'Staatliches', sans-serif;
-  box-shadow: -0.3rem 0.1rem 0.5rem rgba(0,0,0,0.5);
+  box-shadow: 0 0 0.5rem rgba(0,0,0,0.5);
 }
 
 .menu-item .categories li{
   position: relative;
-  padding: 0.25rem 0.5rem;
+  padding: 0.25rem;
   height: 1.25rem;
   font-size: 0.8rem;
   margin: 0.125;
   line-height: 1;
   margin: 0.25rem;
   background: #dedede;
-  /* text-decoration: underline; */
-  border-radius: 0.625rem;
+
 }
-
-
 .menu-item .title{
   padding: 0 1rem;
 }

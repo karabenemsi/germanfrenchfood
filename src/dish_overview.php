@@ -34,7 +34,7 @@ echo '
         echo '
         <section class="menu-item">
           <div class="price">' . $meal['price'] . '€</div>
-          <a href="./dish_detail.php?dish='. $meal["id_meal"] . '" class="top-image" style="background-image:url(' . $meal['image'] . ')"></a>
+          <a class="top-image" style="background-image:url(' . $meal['image'] . ')"></a>
           <div class="categories">
             <ul>';
             if($categories = $db->query($sql)) {
