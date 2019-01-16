@@ -42,6 +42,11 @@
 }
 
 /*---------------------------------------------Align the big letters with the small ones*/
+h2{
+
+	text-align: center;
+	display: inline-block;
+}
 
 .alignment{
 	display: inline-block;

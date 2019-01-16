@@ -66,7 +66,10 @@
   </section>
 
 
-        <section class="video" style="background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url(./images/hero1.jpg);">
+        <section class="video" style="background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)));">
+            <video autoplay loop muted id="Video">
+                <source src="./videos/introVid.mp4" type="video/mp4"> 
+            </video>
           <h2>Freshly Made</h2>
           <p>Our ingredients are grown regionally and selected by hand by our chefs. The dishes are freshly prepared for you after your order and then served at your table. In order to provide you with a high quality diet, we constantly carry out quality controls and support sustainable agriculture.</p>
         </section>

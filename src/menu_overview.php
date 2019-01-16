@@ -54,9 +54,3 @@ $sql = "SELECT * FROM meal";
  
 
     </main>
-<?php
-
-    include('./includes/footer.php'); 
-    
-
-    ?>
