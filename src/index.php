@@ -1,14 +1,13 @@
     <?php
     define('HOME_SITE', true);
     include('./includes/database.php');
-    include('./includes/functions.php');
     include('./includes/header.php');
 
 
 ?>
     <main>
 
-    <section class="hero" style="background-image:url(./images/hero1.jpg">
+    <section class="hero" style="background-image:url(./images/hero2.jpg); background-attachment: unset; background-position: center center">
 
     </section>
 
