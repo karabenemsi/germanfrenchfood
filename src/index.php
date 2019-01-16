@@ -66,10 +66,10 @@
     </section>
 
 
-        <section class="video" style="background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url(./images/hero1.jpg);">
-			<video autoplay loop muted class="background-video">
-				<source src="
-				./videos/introVid.mp4" type="video/mp4">
+    
+    <section class="video" style="background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)));">
+            <video autoplay loop muted id="Video">
+                <source src="./videos/introVid.mp4" type="video/mp4"> 
             </video>
             <div class="overlay"></div>
           <h2>Freshly Made</h2>
