@@ -6,7 +6,7 @@
 			<h1><a href="" class="fstuff">About...</a></h1>
 			<video autoplay loop muted id="Video">
 				<source src="
-				./videos/introVid.mp4" type="video/mp4">
+				./videos/footerVid.mp4" type="video/mp4">
 			</video>
 		</div>
 <?/*--------------------------------------------------------------Overall text of the context of creation of the company. */?>
