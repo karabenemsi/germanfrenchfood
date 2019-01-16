@@ -2,7 +2,7 @@ main {
 	display: flex;
 	flex-direction: column;
 }
-.titre {
+.title {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -32,11 +32,11 @@ section {
 }
 
 .alsace {
-	background-image: url(dune_pillat.jpg);
+	background-image: url(place_stanislas.jpg);
 }
 
 .aquitaine {
-	background-image: url(place_stanislas.jpg);
+	background-image: url(dune_pillat.jpg);
 }
 
 .lyon {
@@ -52,9 +52,18 @@ section {
 }
 
 
-a{color: blue;  /*A CHANGER LA COULEUR*/
+h2 {color: blue;  /*A CHANGER LA COULEUR*/
 	font-size: 50px;
 	font-weight: bold;
-	text-decoration: none;
 	
+}
+
+.menus{ 
+  display: none;
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: white;
+  margin-top: 20px;
+
 }
