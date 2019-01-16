@@ -16,35 +16,35 @@
 
     <section class="homemenu">
 
-        <div class="homebox">
+        <a class="homebox" href="" style="backround-image: url(./images/haxe.jpg)">
             <h1> Great Headline </h1>
 
-        </div>
+        </a>
 
-        <div class="homebox">
+        <a class="homebox" href="" style="backround-image: url(./images/kaesespaetzle.jpg)">
         <h1> Great Headline </h1>
 
-        </div>
+        </a>
 
-        <div class="homebox">
+        <a class="homebox" href="" style="backround-image: url(./images/haxe.jpg)">
         <h1> Great Headline </h1>
 
-        </div>
+        </a>
 
-        <div class="homebox">
+        <a class="homebox" href="" style="backround-image: url(./images/haxe.jpg)">
         <h1> Great Headline </h1>
 
-        </div>
+        </a>
 
-        <div class="homebox">
+        <a class="homebox" href="" style="backround-image: url(./images/haxe.jpg)">
         <h1> Great Headline </h1>
 
-        </div>
+        </a>
 
-        <div class="homebox">
+        <a class="homebox" href="" style="backround-image: url(./images/haxe.jpg)">
         <h1> Great Headline </h1>
+        </a>
 
-        </div>
     <section class="split-text">
         
       <div class="half">
