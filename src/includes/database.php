@@ -1,7 +1,11 @@
 <?php
-	$db = mysqli_connect(DATABASE_HOST, DATABASE_USERNAME, DATABASE_PASSWORD, DATABASE_NAME);
-	if(!$db)
-	{
-		exit('Connection Error: ' . mysqli_error());
-	}
-?>
+
+
+
+
+	try {
+    $base = new PDO('mysql:host=localhost;dbname=ww07;charset=utf8', "ww07", "5KX3LeRB");
+  }
+  catch(exception $e) {
+    die('Erreur '.$e->getMessage());
+ 	}
