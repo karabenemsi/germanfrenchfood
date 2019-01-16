@@ -1,19 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>French menu</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<main>
-		<section class="title">
+    <?php
+    define('HOME_SITE', false);
+    include('./includes/database.php');
+    include('./includes/header.php');
+
+
+?>
+    <main class="menus-main">
+
+	<section class="title">
 			<h1>Menus</h1>
 		</section>
 		<section>
-
-			<div class="menu-item brittany">
-				<h2 onclick="myFunction('brittany_text')">Breton Menu</h2>
+			<div class="menu-item breton">
+<h2 onclick="myFunction('brittany_text')">Breton Menu</h2>
 			</div>
       
      	 	<p class='menus' id="brittany_text">
@@ -50,9 +49,8 @@ As a main course: you can choose between a Flammenkueche (onion pies with bacon 
 For dessert: a Kougelhopf, a traditional cake. There may be some alcohol, not recommendable for children.</br>
 As with all the other menus, you can also have a plate of the french different kind of cheeses. </br>
 			</p>
-
 			<div class="menu-item lyon">
-				<h2 onclick="myFunction('lyon_text')">Lyonnais Menu</h2>
+					<h2 onclick="myFunction('lyon_text')">Lyonnais Menu</h2>
 			</div>
 
 			<p class='menus' id="lyon_text">
@@ -65,8 +63,9 @@ For dessert: an apple, pear or apricot tart tatin.</br>
 As with all the other menus, you can also take a plate of regional cheeses, including Mont d'Or.</br>
 			</p>
 
+
 			<div class="menu-item aquitaine">
-				<h2 onclick="myFunction('aquitaine_text')">Aquitaine Menu</h2>
+					<h2 onclick="myFunction('aquitaine_text')">Aquitaine Menu</h2>
 			</div>
 				<p class='menus' id="aquitaine_text">
 					Aquitaine menu at 29.00 €</br>
@@ -78,10 +77,8 @@ As a main course: our chef will make you a duck confit on his bed of mashed pota
 For dessert in this gourmet meal, a homemade Basque cake.</br>
 As with all the other menus, you can also have a plate of regional cheeses.</br>
 				</p>
-
-		
 			<div class="menu-item paris">
-				<h2 onclick="myFunction('paris_text')">Parisian Menu</h2>
+			<h2 onclick="myFunction('paris_text')">Parisian Menu</h2>
 			</div>
 
 			<p class='menus' id="paris_text">
@@ -94,12 +91,23 @@ For dessert: A typically French dessert made by the best pastry chefs, the mille
 As with all other menus, you can also have a cheese platter.</br>
 		</p>
 
+			<p class='menus' id="paris_text">
+		Parisian Menu 25.00 € :</br>
+Paris is in the center of France, it is the capital of France. La Tour Eiffel, les Champs Elysées, l’Arc de Triomphe and other monuments are the charm of this one. Thanks to them, it is one of the world's tourism capitals. 
+The city of love and chic, foreigners go to the art bridge also known as the padlock bridge to hang theirs to represent their eternal love.</br>
+As a starter: we offer you a salad with mushrooms.</br>
+As a main course: A croque-monsieur covered with melt-in-the-mouth Gruyère made with toasted sandwich bread and inside with Paris ham and béchamel sauce. All this on a bed of green salad.</br>
+For dessert: A typically French dessert made by the best pastry chefs, the millefeuille.</br>
+As with all other menus, you can also have a cheese platter.
+		</p>
+
 			<div class="menu-item savoie">
-				<h2 onclick="myFunction('savoie_text')">Savoyard Menu</h2>	
+				<h2 onclick="myFunction('savoie')">Savoyard Menu</h2>
+				
 			</div>
 
 
-			<p class='menus' id="savoie_text">
+			<p class='menus' id="savoie">
 		Savoyard Menu 32.00 € :</br>
 Savoie marks the border with Switzerland and Italy thanks to the Alps mountain range. The Alps are home to the highest peak in France, Mont Blanc. This department is very attractive, especially for winter sports.</br>
 The Aiguille du Midi offers a magnificent panoramic view of Mont Blanc and even allows you to cross it.
@@ -108,6 +116,7 @@ As a main course: You can have a tartiflette that is made from potatoes, bacon, 
 For dessert: There are bugnes, small cakes made of fried and baked sweet pasta with a sprinkle of sugar as the final touch.</br>
 In the fondue and the bugnes there is alcohol so this menu is not recommended for children.</br>
 Of course, as with all the other menus, you can also have a cheese platter, which in this case will be made from Savoyard cheeses.</br>
+
 		</p>
 			
 		</section>
@@ -123,7 +132,8 @@ Of course, as with all the other menus, you can also have a cheese platter, whic
 		  }
 		}
 		</script>
-	</main>
-
-</body>
-</html>
+    
+    </main>
+<?php
+    include('./includes/footer.php'); 
+?>
