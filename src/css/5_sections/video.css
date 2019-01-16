@@ -6,10 +6,32 @@ section.video {
   flex-direction: column;
   color: #fff;
   background-attachment: fixed;
+  background: none;
+  position: relative;
+  overflow: hidden;
 }
 
-section.video h1, section.video p {
+section.video h2, section.video p {
   text-align: center;
   max-width: 40rem;
   padding: 2rem 0;
+  z-index: 20;
+}
+
+.video .background-video{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.video .overlay{
+  background: rgba(0,0,0,0.6);
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }

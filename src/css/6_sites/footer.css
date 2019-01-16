@@ -1,9 +1,6 @@
-*{
-	margin: 0px;
-	padding: 0px;
-	list-style-type: none;
-	text-decoration: none;
-	text-align: center;
+
+footer{
+	 z-index: 10;
 }
 
 /* ------------------------------- Show the video showing on the whole screen*/
@@ -42,13 +39,17 @@
 }
 
 /*---------------------------------------------Align the big letters with the small ones*/
-h2{
+p{
+	display: inline-block;
+}
 
+h2{
 	text-align: center;
 	display: inline-block;
 }
 
 .alignment{
+	margin-top: -300px;
 	display: inline-block;
 	text-align: center;
 }
@@ -57,6 +58,7 @@ h2{
 #GerColor{
 	display: inline-block;
 	font-size: 3vh;
+	color: red;
 }
 #FrColor{
 	display: inline-flex;

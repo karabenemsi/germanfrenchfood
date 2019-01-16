@@ -5,8 +5,8 @@ $host="localhost";//presque tout le temps localhost or almost all the time local
 $user="ww07";// le login de ta BDD or the login of the database
 $pwd="5KX3LeRB";//le mot de passe de ta BDD or password of the database
 
-$db = new PDO("mysql:dbname=$dbname;host=$host",$user,$pwd);//pour obtenir ta chaine de connection or obtaining the chain of connexion
-
+/*$db = new PDO("mysql:dbname=$dbname;host=$host",$user,$pwd);*///pour obtenir ta chaine de connection or obtaining the chain of connexion
+    $db = new PDO('mysql:host=localhost;dbname=ww07;charset=utf8', "ww07", "5KX3LeRB");
 $query = $db->prepare("SELECT * FROM CLIENT WHERE age > ?");//ta requette SQL ? corespond a une valeure que tu passe plus tard dans "execute" kinda the SQL test 
 
 $query->execute(['19']);//remplace les ? par la valeur dans le tableau "age = ? and id = ?" => [19, 154]
