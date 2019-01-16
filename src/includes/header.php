@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GermanFrenchFood</title>
-    <link rel="stylesheet" href="<?php echo '//' . $_SERVER['HTTP_HOST'] . '/css/main.css';?>">
+    <link rel="stylesheet" href="./css/main.css">
 
 </head>
 <body>
@@ -65,3 +65,4 @@
           German French Food
         </div>
   </header>
+</body>
