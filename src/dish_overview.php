@@ -20,7 +20,7 @@ echo '
 
 
 
-  $sql = 'SELECT * FROM meal m INNER JOIN meal_category mc on m.id = mc.id_meal INNER JOIN category c on mc.id_category = c.id WHERE c.name = "' . $category . '"';
+  $sql = 'SELECT * FROM meal m INNER JOIN meal_category mc on m.id = mc.id_meal INNER JOIN category c on mc.id_category = c.id WHERE c.name = "' . htmlspecialchars($category,ENT_QUOTES) . '"';
 
 
   if($meals = $db->query($sql)) {

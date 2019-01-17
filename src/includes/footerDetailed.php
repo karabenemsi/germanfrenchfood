@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <body>
 
-	<link rel="stylesheet" type="text/css" href="./css/6_sites/footer.css">
+	<link rel="stylesheet" type="text/css" href="./css/6_sites/footerDetailed.css">
 </body>
 <html>
 <script src="./js/main.js"></script>
@@ -17,8 +17,8 @@
 
 <p>Each of them can bring great change in the way we consume things, and is a great challenge to bring it over to you, in the best way possible. </p>
 
-
-<ul>
+<div class="blah">
+<ul class="meh">
 	<h2>Guess what </h2>
 	<p>Now the thing is that are you really gonna write or even read i'm actually typing right now ? 
 	That is actually a very good question for you all ? do you know actually how many hours i've put into this typing thing ? </p>
@@ -36,3 +36,4 @@
 
 	<p>ok guys i'm becoming bored , so imma gonna stop right there, have some fun finding that stuff ! </p>
 </ul>
+</div>
