@@ -38,15 +38,6 @@ footer{
 	font-size: 1.5vh;
 }
 
-/*---------------------------------------------Align the big letters with the small ones*/
-p{
-	display: inline-block;
-}
-
-h2{
-	text-align: center;
-	display: inline-block;
-}
 
 .alignment{
 	margin-top: -300px;
