@@ -20,7 +20,8 @@ section.video h2, section.video p {
 
 .video .background-video{
   position: absolute;
-  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
   bottom: 0;
   top: 0;
   z-index: 1;
