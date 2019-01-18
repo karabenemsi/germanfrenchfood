@@ -43,7 +43,7 @@
     </div>
 
 
-    <div class="logo">
+    <a href="./index.php" class="logo">
       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="600" viewBox="0 0 600 600">
         <g>
           <path id="Pfad_11" data-name="Pfad 11" d="M0,0H600V200H200Z"/>
@@ -61,7 +61,7 @@
           </g>
         </g>
       </svg>
-    </div>
+    </a>
         <div class="logo-text">
           German French Food
         </div>

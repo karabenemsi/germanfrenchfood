@@ -1,3 +1,6 @@
+/* Import Fonts for further use */
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Staatliches');
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -382,14 +385,13 @@ template {
   display: none;
 }
 
-/* Import Fonts for further use */
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Staatliches');
+
 
 body {
   -webkit-text-size-adjust: 100%;
 
   color: #000000;
-  font-family: 'Linotype-Univers', sans-serif;
+  font-family: 'Noto Serif', sans-serif;
   font-size: 16px;
   /* Activate antialising for better font rendering in webkit browsers */
   -webkit-font-smoothing: antialiased;
@@ -521,7 +523,7 @@ h1 {
   font-size: 2.75rem;
   line-height: 3.375rem;
   font-weight: 600;
-  font-family: 'Staatliches';
+  font-family: 'Staatliches', sans-serif;
   letter-spacing: -0.01875rem;
 }
 
@@ -529,14 +531,14 @@ h2 {
   font-size: 2.375rem;
   line-height: 2.75rem;
   font-weight: 600;
-  font-family: 'Staatliches';
+  font-family: 'Staatliches', sans-serif;
   letter-spacing: -0.00625rem;
 }
 
 h3 {
   font-size: 1.5rem;
   font-weight: 600;
-  font-family: 'Staatliches';
+  font-family: 'Staatliches', sans-serif;
   line-height: 1.875rem;
   letter-spacing: 0rem;
 }
@@ -691,7 +693,7 @@ header.home .logo-text {
   font-size: 2.75rem;
   line-height: 3.375rem;
   font-weight: 600;
-  font-family: "Staatliches";
+  font-family: "Staatliches", sans-serif;
   letter-spacing: -0.01875rem;
   opacity: 1;
   transition: all 0.3s ease-in-out;
@@ -846,7 +848,7 @@ nav ul {
   font-size: 2.375rem;
   line-height: 2.75rem;
   font-weight: 600;
-  font-family: 'Staatliches';
+  font-family: 'Staatliches', sans-serif;
   letter-spacing: -0.00625rem;
 }
 
