@@ -8,7 +8,7 @@
 <? /* Small read more button to have more detail on the company, with link to a detailed page*/
 ?>
 	<article>
-		<p class="readmore"><a href="./src/includes/footerDetailed.php">+ to read more...</a></p>
+		<p class="readmore"><a href="./includes/footerDetailed.php">  to read more...</a></p>
 	</article>
 
 	<!-- <p>2019 &copy; GermanFrenchFood</p>
