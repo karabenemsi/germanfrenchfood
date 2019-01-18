@@ -1,14 +1,14 @@
-<<<<<<< HEAD
+/* 
 *{
 	margin: 0px;
 	padding: 0px;
 	list-style-type: none;
 	text-decoration: none;
 	text-align: center;
-}
+} */
 
 /* ------------------------------- Show the video showing on the whole screen*/
-#Video{
+/* #Video{
 	background-position: fixed;
 	left : 0;
 	top: 0 ;
@@ -16,23 +16,25 @@
 	width: 10%;
 	z-index: 2;
 
-}
+} */
 /*---------------------------------------Show the Bouton on the video being shown.*/
 .fstuff{
-	position: absolute;
+	padding: 1rem;
+	/* position: absolute; */
 	background : rgba(0,0,0,0.9);
-	color : rgb(41,64,255);
-	width: 200px;
+	color : #fff;
+	/* width: 200px;
 	top: 365%;
-	left: 40%;
+	left: 40%; */
 	text-align: center;
 	transition: ease-out 0.5s;
-	border-radius: 10px;
+	/* border-radius: 10px; */
 }
 /*---------------------------------------------- Animation on the button */
 .fstuff:Hover{
 	background : rgba(255,255,255,0.5);
-	border-radius: 10px;
+	color: rgb(41, 134, 221);
+	/* border-radius: 10px; */
 }
 
 /*---------------------------------------------small button */
@@ -42,34 +44,37 @@
 }
 
 /*---------------------------------------------Align the big letters with the small ones*/
-p{
+/* p{
 	display: inline-block;
 }
 
 h2{
 	text-align: center;
 	display: inline-block;
-}
+} */
 
-#alignment{
+/* #alignment{
 	position: fixed
 	border: solid 1px black;
 	margin-top:-300px;
 	display: inline-block;
 	text-align: center;
 	z-index: 1;
-}
+} */
 
 /*--------------------------------------------Change the colors of the paragraph name of the country */
-#GerColor{
+/* #GerColor{
 	display: inline-block;
 	font-size: 3vh;
 }
 #FrColor{
 	display: inline-flex;
 	font-size: 3vh;
-=======
-footer {
+
+} */
+
+
+/* footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,5 +87,4 @@ footer p {
   padding: 1rem;
   margin: 0;
   line-height: 1;
->>>>>>> 48bce900b73cedd22ff9f602bfc27ba861cf0dff
-}
+} */

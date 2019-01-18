@@ -1,8 +1,7 @@
-<footer>
+<footer class="fstuff">
 
-<<<<<<< HEAD
 
-	<article id = alignment>
+	<article id ="alignment">
 		<p><h2>2003,</h2> Six friends,<p id="GerColor"> German</p> and <p id="FrColor">French</p> created GermanFrenchFood. They wanted to gives the possibility to everyone to take advantage of the food of their countries. GermanFrenchFood have the goal to permit to all people to discover all the specialties. GFF is happy to serve you their best recipes.
 	haha.</p>
 	</article>
@@ -11,12 +10,12 @@
 	<article>
 		<p class="readmore"><a href="./src/includes/footerDetailed.php">+ to read more...</a></p>
 	</article>
-=======
-	<p>2019 &copy; GermanFrenchFood</p>
+
+	<!-- <p>2019 &copy; GermanFrenchFood</p>
 	<p>
-		<a href="./locations.php">Locations</a>
+		<a href="./locations.php">Locations</a> -->
 </p>
->>>>>>> 48bce900b73cedd22ff9f602bfc27ba861cf0dff
+
 </footer>
 
 <script src="./js/main.js"></script>
