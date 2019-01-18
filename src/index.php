@@ -21,8 +21,8 @@
       </div>
       <div class="half">
         <div class="container">
-          <h2>Guten Morgen Alles !</h2>
-          <p>Im Jahr 2003 werden sechs französische und deutsche Freunde GermanFrenchFood kreieren. Ihr Wunsch war es, allen die Möglichkeit zu geben, ihre Kochkultur zu genießen. GermanFrenchFood hat das Ziel, dass jeder die lokalen Spezialitäten entdecken kann, und wir sind stolz darauf, diese an Sie zu verkaufen.s
+          <h2>Herzlich willkommen</h2>
+          <p>Im Jahr 2003 haben sechs französische und deutsche Freunde GermanFrenchFood kreiert. Ihr Wunsch war es, allen die Möglichkeit zu geben, Kochkultur zu genießen. GermanFrenchFood hat das Ziel, dass jeder lokale Spezialitäten entdecken kann, und wir freuen uns darauf Ihnen diese zu servieren.
         </p>
         </div>
       </div>
