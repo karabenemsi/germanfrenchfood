@@ -1,0 +1,10 @@
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1 1 auto;
+	background-image:url(charcuterie.jpg);
+	height: 500px;
+	color: white;
+	font-size: 100px;
+}
