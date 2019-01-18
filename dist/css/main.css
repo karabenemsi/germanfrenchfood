@@ -1129,7 +1129,7 @@ main.locations {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image:url(../../images/region/charcuterie.jpg);
+	background-image:url(../images/region/charcuterie.jpg);
 	height: 500px;
 	color: white; /*A CHANGER LA COULEUR SI ON VEUT*/
 	font-size: 100px;
@@ -1157,27 +1157,27 @@ main.locations {
 
 }
 .breton {
-	background-image: url(../../images/region/ile_vierge.jpg);
+	background-image: url(../images/region/ile_vierge.jpg);
 }
 
 .alsace {
-	background-image: url(../../images/region/place_stanislas.jpg);
+	background-image: url(../images/region/place_stanislas.jpg);
 }
 
 .aquitaine {
-	background-image: url(../../images/region/dune_pillat.jpg);
+	background-image: url(../images/region/dune_pillat.jpg);
 }
 
 .lyon {
-	background-image: url(../../images/region/hotel_dieu.jpg);
+	background-image: url(../images/region/hotel_dieu.jpg);
 }
 
 .paris {
-	background-image: url(../../images/region/pont_notre_dame.jpg);
+	background-image: url(../images/region/pont_notre_dame.jpg);
 }
 
 .savoie {
-	background-image: url(../../images/region/aiguille_du_midi.jpg);
+	background-image: url(../images/region/aiguille_du_midi.jpg);
 }
 
 
