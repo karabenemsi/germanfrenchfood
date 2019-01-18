@@ -1,0 +1,4 @@
+/* Limit images with by default */
+img {
+  max-width: 100%;
+}

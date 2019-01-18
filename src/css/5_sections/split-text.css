@@ -1,0 +1,34 @@
+.split-text {
+  /* background: #ddd; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.split-text .half {
+  padding: 5rem 3rem;
+  min-width: 20rem;
+  width: calc(50% + 2.5rem);
+  flex-grow: 1;
+
+  /* font-size: 2rem; */
+}
+
+.split-text .half:nth-of-type(2n+1) {
+  background: #fff;
+  color: #000;
+  padding-right: 6rem;
+  -webkit-clip-path: polygon(0 0, 100% 0, calc(100% - 5rem) 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, calc(100% - 5rem) 100%, 0 100%);
+  margin-right: -2.5rem;
+}
+
+.split-text .half:nth-of-type(2n){
+ background: #000;
+  color: #ffff;
+  margin-left: -2.5rem;
+  padding-left: 6rem;
+ -webkit-clip-path: polygon(5rem 0, 100% 0, 100% 100%, 0 100%);
+clip-path: polygon(5rem 0, 100% 0, 100% 100%, 0 100%);
+}

@@ -1,0 +1,30 @@
+.homemenu {
+  flex-wrap: wrap;
+  justify-content: center;
+
+  display: flex;
+}
+
+.homebox {
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center;
+
+  display: block;
+  display: flex;
+  width: 33.33%;
+  height: 20rem;
+  min-width: 375px;
+  padding: 1rem;
+
+  background: white;
+  background-position: center center;
+  background-size: cover;
+  border: 2px solid black;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+}
+
+.homebox h1 {
+  color: #fff;
+}
+

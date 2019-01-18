@@ -1,0 +1,72 @@
+header .logo {
+  position: fixed;
+  height: 4.5rem;
+  width: 4.5rem;
+  right: 1.5rem;
+  top: 1.5rem;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  z-index: 2000;
+}
+
+header .logo-text {
+  display: none;
+}
+
+header .logo:hover {
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
+}
+
+header .logo svg {
+  height: 100%;
+  width: 100%;
+}
+
+
+/* Logo on the home page */
+
+header.home .logo {
+  top: 20rem;
+  right: 50%;
+  transform: translate(50%, -50%);
+  width: 10rem;
+  height: 10rem;
+  transition: all 0.3s ease-in-out;
+  z-index: 800;
+}
+
+header.home .logo-text {
+  position: absolute;
+  top: calc(20rem + 7rem);
+  left: 50%;
+  color: #000;
+  transform: translateX(-50%);
+  width: 80%;
+  text-align: center;
+  display: block;
+  font-size: 2.75rem;
+  line-height: 3.375rem;
+  font-weight: 600;
+  font-family: "Staatliches";
+  letter-spacing: -0.01875rem;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+  z-index: 800;
+}
+
+header.home.header-up .logo {
+  opacity: 0.6;
+  height: 4.5rem;
+  width: 4.5rem;
+  right: 1.5rem;
+  top: 1.5rem;
+  left: auto;
+  transform: translate(0, 0);
+  z-index: 1020;
+}
+
+header.home.header-up .logo-text {
+  opacity: 0;
+}

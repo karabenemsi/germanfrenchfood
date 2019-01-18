@@ -1,0 +1,25 @@
+section{
+  z-index: 10;
+}
+
+section.hero{
+  background: green;
+  height: 40rem;
+  width: 100%;
+
+  background-size: cover;
+  background-position: center center;
+  flex-direction: column;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+}
+
+.hero h1{
+  font-size: 5rem;
+  line-height: 1.1;
+  text-align: center;
+  padding: 1rem;
+}

@@ -1,8 +1,15 @@
-
-
 <footer>
 
+	<p>2019 &copy; GermanFrenchFood</p>
+	<p>
+		<a href="./locations.php">Locations</a>
+</p>
 </footer>
-</body>
-<script src="<?php echo '//' . $_SERVER['HTTP_HOST'] . '/js/main.min.js' ?>"></script>
+
+<script src="./js/main.js"></script>
 </html>
+
+
+<?php
+$db = null;
+?>
